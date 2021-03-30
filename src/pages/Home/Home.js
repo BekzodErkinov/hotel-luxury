@@ -1,11 +1,13 @@
-import './Home.scss'
+import Header from '../../containers/Header/Header'
+
+// import './Home.scss'
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Header/>
     </div>
   )
 }
 
-export  {Home}
+export default Home
